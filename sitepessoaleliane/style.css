@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #eee;
+    font-family: Verdana;    
+    }
+
+@media (max-width:500px){
+        header{
+            flex-direction: column;
+        }
+    }
+section{
+    max-width: 95%; 
+     margin-left: auto;
+     margin-right: auto; 
+}
+
+.header-eliane{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    text-align: center;
+    background-color: #5570ca9a;    
+}
+.photo{
+    border-radius: 50%;
+    border: 5px solid #ffffff;    
+}
+
+.subtitle, .post_title{
+    text-align: center;
+    margin: 5px;
+}
+#title{
+    color: blue;
+    font: size 24px;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: line-through;
+    color: #505050
+}
+.post-title{
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.post{
+    background-color:#ffffff;
+    padding: 15px;
+    box-shadow: 4px 4px 3px #5050506e;
+    /* border:3px solid #505050; */
+    margin: 0;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+.post_image{
+    margin-bottom: 15px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer{
+    background-color:#505050; 
+    height: 60px;
+    padding-top: 25px;   
+}
+.contacts_list{
+    list-style-type: none;
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+.contacts_list li a{
+text-decoration: none;
+color: #ffffff;
+}
+a:hover{
+    background-color: rgba(238, 238, 238, 0.5);
+    border-radius: 10px;
+    padding: 7px;    
+}
